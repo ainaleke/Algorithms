@@ -1,3 +1,4 @@
+//This algorithm moves all zeroes to the end of the array without disrupting the sequence of the nonz-zero values
 
 public class MoveZeroes {
 
