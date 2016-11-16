@@ -6,6 +6,16 @@ public class GetMaxProfit {
 		int[] arr={10, 7, 5, 8, 9, 2};
 		int[] arr2=new int[]{10, 7, 5, 8, 11, 9};
 		System.out.println(getMaxProfit(arr));
+		System.out.println("Lets start");
+		int i=arr.length-1;
+		while(i>=0){
+			if(arr[i]>7){
+				i--;
+				continue;
+			}
+			System.out.println(arr[i]);
+			i--;
+		}
 
 	}
 	public static int getMaxProfit(int[] stockPrices){
