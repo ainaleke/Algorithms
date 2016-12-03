@@ -34,11 +34,7 @@ public class StackWithMin extends Stack<NodeWithMin2> {
 			myStackWithMin.pop();
 			System.out.println(myStackWithMin.min());
 			myStackWithMin.push(1);
-			System.out.println(myStackWithMin.min());
-			
-			
-			
-			
+			System.out.println(myStackWithMin.min());	
 		}
 
 	}
